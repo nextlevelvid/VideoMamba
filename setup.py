@@ -7,7 +7,7 @@ setup(
     install_requires=[
         "av",
         "eva-decord",
-        "deepspeed",
+        # "deepspeed",
         "einops",
         "ftfy",
         "fvcore",
@@ -29,7 +29,7 @@ setup(
         "submitit",
         "tensorboardX",
         "tensorflow",
-        "tensorflow-io-gcs-filesystem",
+        "tensorflow-io-gcs-filesystem==0.37.1",
         "termcolor",
         "timm",
         "tqdm",
