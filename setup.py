@@ -29,6 +29,7 @@ setup(
         "submitit",
         "tensorboardX",
         "tensorflow",
+        "tensorflow-io-gcs-filesystem",
         "termcolor",
         "timm",
         "tqdm",
